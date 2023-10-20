@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <title>AKN Bojonegoro</title>
+<body>
+    <h1>JavaScript Can Change Images</h1>
+    <img id="myImage" onclick="changeImage()" src="C:\Users\malvi\Pictures\Agung.jpg" width="190" height="180">
+    <p>Click the image to change image.</p>
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("agung")){
+                iamge.src = "C:\Users\malvi\Pictures\Agung.jpg";
+            }else{
+                image.src = "C:\Users\malvi\Pictures\Dio Alif.jpg";
+            }
+        }
+    </script>
+</body>
+</html>
